@@ -113,6 +113,7 @@ class CurlHelper
                 $info = mb_strlen(HttpUtil::formatAsStatusWithHeadersString($response), 'ISO-8859-1');
                 break;
             case CURLPROXY_HTTPS:
+            case CURLINFO_APPCONNECT_TIME:
                 $info = '';
                 break;
             default:
