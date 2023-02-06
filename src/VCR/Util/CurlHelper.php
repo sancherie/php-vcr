@@ -36,6 +36,7 @@ class CurlHelper
         \CURLINFO_CONTENT_LENGTH_DOWNLOAD => 'download_content_length',
         \CURLINFO_CONTENT_LENGTH_UPLOAD => 'upload_content_length',
         \CURLINFO_CONTENT_TYPE => 'content_type',
+        \CURLINFO_APPCONNECT_TIME => 'appconnect_time',
     ];
 
     /**
